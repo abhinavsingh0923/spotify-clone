@@ -1,0 +1,56 @@
+# server ignore file and dirs
+server/clone
+
+# Django #
+*.log
+*.pot
+*.pyc
+server/app/app/__pycache__
+server/app/api/__pycache__
+server/app/api/migraions__pycache__
+server/app/db.sqlite3
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+sporify_clone/android/app/debug
+sporify_clone/android/app/profile
+sporify_clone/android/app/release
